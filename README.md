@@ -21,5 +21,28 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
+------------------------------------------|
+Table for Flavanoids...
+
+| Measure  | Class 1  | Class 2  |  | Class 3  |
+| --------- |:-------------:| -----:|:| -----:|
+Flavanoids Mean |	0.058 |	0.030 |	0.043 |
+Flavanoids :| Median :|	2.8 :|	2.2	1.635 |
+Flavanoids Mode	3 |	2.2 |	1.7 |
+
+Table for Gamma...
+
+
+| Measure  | Class 1  | Class 2  |  | Class 3  |
+| --------- |:-------------:| -----:|:| -----:|
+|Gamma Mean  | 0.010| 0.007 || 0.032 |
+| Gamma Median | 0.609 |0.248| 1.0955 |
+| Gamma Mode | 0.609 |  0.225   | 0.307|
+
+
+Measure	Class 1	Class 2	Class 3
+Gamma Mean	0.010	0.007	0.032
+Gamma Median	0.609	0.248	1.0955
+Gamma Mode	0.609	0.225	0.307
 
 
