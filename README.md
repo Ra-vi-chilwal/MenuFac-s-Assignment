@@ -21,7 +21,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
-[](images/readme.png)
+![](images/readme.png)
 ------------------------------------------|
 Table for Flavanoids...
 
