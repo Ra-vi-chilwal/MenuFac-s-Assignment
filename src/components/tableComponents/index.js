@@ -1,8 +1,8 @@
 import React from "react";
 import './table.css';
 import { Mean, Median, Mode } from "../methodFormulae/Formulae";
-const Table =  ({method1, method2, method3,data1,data2,data3}) =>{
-    return (
+const Table =  ({method1, method2, method3, data1, data2, data3}) =>{
+    return (  
         <>
        <table>
   <tr>

@@ -6,7 +6,7 @@ export const FilterData = ( alcoholType, item) => {
   for (let i = 0; i < WineData.length; i++) {
     if (WineData[i].Alcohol === alcoholType) {
         if(item){
-            filteredData.push(WineData[i][item]);
+            filteredData.push(Number(WineData[i][item]));
         } else{
             filteredData.push(WineData[i]);
         }
@@ -19,9 +19,9 @@ export const FilterData = ( alcoholType, item) => {
 // method for caluclating mean of array
 export const Mean = (arr) => {
   let length = arr.length;
-  let sum = arr.reduce((a, b) => (a = b), 0);
+  let sum = arr.reduce((a, b) => (a + b), 0);
   let average = sum / length;
-  return average.toFixed(3);
+  return Number(average.toFixed(3));
 };
 // method for caluclating Median of array
 export const Median = (arr) => {
